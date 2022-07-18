@@ -1,0 +1,75 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+
+.scene {
+    padding: 4.85% 36%;
+}
+
+.container h1{
+    width:120%;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.container p{
+    width:130%;
+    text-align: center;
+    margin-top:5%;
+    font-size:1.2rem;
+}
+
+.form{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.form  input{
+    margin-top: 50px;
+    margin-left: 25px;
+    outline: none;
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+::placeholder{
+color: #222831;
+opacity: 0.5;
+font-size: 1.3rem;
+}
+
+.inputs {
+    width: 150%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    margin-bottom: 7%;
+}
+
+.inputs input {
+    width: 95%;
+    height: 3.5rem;
+    padding: .10rem .10rem; 
+    cursor: pointer;
+    border: 2px solid black;   
+    color: black;
+    background: rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    margin-left: 2%;
+    font-size: 1.1rem;
+}
+
+.inputs input:hover {
+    outline: none;
+    background: transparent;
+}

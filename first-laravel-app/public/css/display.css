@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.scene {
+    padding: 2% 5%;
+}
+
+.jumbotron-fluid{
+    border-radius: 20px;
+}
+
+.container{
+    width: 100%;
+}
+
+.content {
+    padding: 0% 5%;
+}
+
+.content img{
+    width: 1212px;
+    height : 600px;
+}
+
+.content h5{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.content p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.content p small{
+    font-size: 1.2rem;
+    font-weight: 500;
+}

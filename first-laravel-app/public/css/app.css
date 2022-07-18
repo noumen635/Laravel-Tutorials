@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.scene {
+    padding: 2% 5%;
+}
+
+.jumbotron-fluid{
+    border-radius: 20px;
+}
+
+.container{
+    width: 100%;
+}
+
+.form{
+    width: 100%;
+    padding: 2% 5%;
+    margin-top: -4%;
+}
+
+.form label {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.form  input{
+    background-color: transparent;
+    padding: 1.5rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+::placeholder{
+    color: #222831;
+    opacity: 0.5;
+}
+
+.form button {
+    margin-top: 3%;
+    font-size: 1.3rem;
+}
